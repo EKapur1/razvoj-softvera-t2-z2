@@ -26,8 +26,9 @@ public class Controller {
         int n = parseInt(Unos.getText());
         for(int i = 1; i < n; i++){
             int suma = sumaCifara(i);
-            if(i % suma == 0)
+            if(i % suma == 0) {
                 temp+= i + " ";
+            }
         }
         izlaz.setText(temp);
     }

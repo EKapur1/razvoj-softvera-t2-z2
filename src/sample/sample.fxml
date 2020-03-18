@@ -17,16 +17,19 @@
         </rowConstraints>
          <children>
             <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#ispis" text="Izračunaj" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-            <TextArea fx:id="izlaz" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+            <TextArea fx:id="izlaz" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </GridPane.margin></TextArea>
             <TextField fx:id="Unos">
                <GridPane.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </GridPane.margin>
             </TextField>
          </children>
+         <GridPane.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </GridPane.margin>
       </GridPane>
    </children>
    <columnConstraints>
